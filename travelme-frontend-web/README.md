@@ -4,6 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+Enable legacy OpenSSL provider.
+
+On Unix-like (Linux, macOS, Git bash, etc.):
+
+export NODE_OPTIONS=--openssl-legacy-provider
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
